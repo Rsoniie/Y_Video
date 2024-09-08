@@ -24,6 +24,9 @@ const UserSchema = new Schema(
       trim: true,
       index: true,
     },
+    coverimage: {
+        type: String,
+    },
     avatar: {
       type: String, // url for cloud storage of image..
       required: true,
